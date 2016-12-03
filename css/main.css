@@ -27,3 +27,15 @@ header {
   background-color: #18294f;
   padding-bottom: 5px;
 }
+
+nav a {
+  text-decoration: none;
+  color: #6c8fe0;
+  width: 100%;
+  display: block;
+}
+
+nav ul {
+  list-style-type: none;
+  font-size: 1.125rem;
+}
