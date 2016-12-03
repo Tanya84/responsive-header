@@ -28,6 +28,13 @@ header {
   padding-bottom: 5px;
 }
 
+header h1 {
+  text-align: center;
+  margin: .9rem;
+  font-size: 2rem;
+
+}
+
 nav a {
   text-decoration: none;
   color: #6c8fe0;
@@ -38,4 +45,22 @@ nav a {
 nav ul {
   list-style-type: none;
   font-size: 1.125rem;
+  padding: 0;
+}
+
+nav a:hover {
+  background-color: #6c8fe0;
+  color: #fff;
+}
+
+@media only screen and (min-width: 25em) {
+
+  nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+
+
+
 }
