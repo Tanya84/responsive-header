@@ -40,12 +40,13 @@ nav a {
   color: #6c8fe0;
   width: 100%;
   display: block;
+  padding: .5em .75em;
 }
 
 nav ul {
   list-style-type: none;
   font-size: 1.125rem;
-  padding: 0;
+  padding-left: .75rem;
 }
 
 nav a:hover {
@@ -90,6 +91,17 @@ nav a:hover {
 
   nav ul {
     float: right;
+  }
+}
+
+  @media only screen and (min-width: 90em) {
+
+    html {
+      font-size: 130%;
+    }
+
+
+
   }
 
 
